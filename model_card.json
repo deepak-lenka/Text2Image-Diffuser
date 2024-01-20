@@ -1,6 +1,5 @@
 
-2. **model_card.json:**
-```json
+
 {
   "modelId": "your-text2image-diffuser",
   "title": "Your Text2Image Diffuser Model",
