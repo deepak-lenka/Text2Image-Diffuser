@@ -1,1 +1,32 @@
 
+2. **model_card.json:**
+```json
+{
+  "modelId": "your-text2image-diffuser",
+  "title": "Your Text2Image Diffuser Model",
+  "description": "Pretrained Text2Image Diffuser model using diffusers and transformers.",
+  "version": "1.0",
+  "license": "MIT",
+  "tags": ["text-to-image", "diffuser", "transformers"],
+  "framework": "pytorch",
+  "status": "experimental",
+  "tasks": ["image-generation"],
+  "pipeline": "text2image-diffuser",
+  "inputs": [
+    {
+      "name": "prompt",
+      "type": "text",
+      "description": "The text prompt for image generation."
+    }
+  ],
+  "trainingData": null,
+  "output": {
+    "name": "images",
+    "type": "image",
+    "description": "Generated images based on the provided text prompt."
+  },
+  "benchmark": null,
+  "citation": null,
+  "authors": ["Deepak Lenka"],
+  "contact": "iamdeepak034@gmail.com"
+}
