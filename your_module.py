@@ -21,7 +21,8 @@ def generate_image(prompt):
 
     # Generate a random seed
     seed = random.randint(0, sys.maxsize)
-
+# Save the model weights separately
+pipe.save_pretrained("your_model_directory")
     # Set the number of inference steps
     num_inference_steps = 4
 
